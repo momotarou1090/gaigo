@@ -1,0 +1,22 @@
+.header-wrapper
+  .header-main
+    .logo_container
+      =link_to (image_tag "4d24c9b49a22c259010426cd3abccb26.png",size: '120x80'), home_index_path
+    .navigation
+      %nav.top-menu-nav
+        %ul.nav
+          %li.menu-item-home
+            = link_to home_index_path do
+              %i.fal.fa-home-lg-alt.home-button.header
+              HOME
+          %li.menu-item-plofile
+            = link_to "PLOFILE", "#", class: "header-plofile"
+          %li.menu-item-event
+            = link_to "EVENT", "#", class: "header-event"
+          %li.menu-item-history
+            = link_to "HISTORY", "#", class: "header-history"
+          %li.menu-item-movie
+            = link_to "MOVIE", "#", class: "header-movie"
+          %li.menu-item-contact
+            = link_to "CONTACT", "#", class: "header-contact"
+          

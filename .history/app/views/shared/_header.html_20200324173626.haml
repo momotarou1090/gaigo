@@ -1,0 +1,11 @@
+.header-wrapper
+  .header-main
+    .logo_container
+      =link_to (image_tag "4d24c9b49a22c259010426cd3abccb26.png",size: '120x80'), home_index_path
+    .navigation
+      %nav.top-menu-nav
+        %ul.nav
+          %li.menu-item-home
+            = link_to "HOME",  home_index_path, class: "header-home"
+          %li.menu-item-plofile
+            = link_to "PLOFILE", "

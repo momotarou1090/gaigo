@@ -1,0 +1,98 @@
+.header-wrapper {
+  height: 80px;
+  background-color: #1c1c1c;
+  position: relative;
+  z-index: 99999;
+  .header-main {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 99;
+    padding-right: 30px;
+    .logo_container {
+      padding-left: 30px;
+      position: absolute;
+      height: 100%;
+    }
+    .navigation {
+      height: 47px;
+      width: 650px;
+      padding-left: 221px;
+      padding-top: 33px;
+      float: right;
+      font-weight: 600;
+      .top-menu-nav {
+        float: left;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 9999999;
+        .nav {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          font-family: Helvetica, Arial, Lucida, sans-serif;
+          .menu-item-home {
+            height: 100%;
+            .header-home {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .menu-item-plofile {
+            height: 100%;
+            .header-plofile {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .menu-item-event {
+            height: 100%;
+            .header-event {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .menu-item-history {
+            height: 100%;
+            .header-history {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .menu-item-movie {
+            height: 100%;
+            .header-movie {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .menu-item-contact {
+            height: 100%;
+            .header-contact {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: white;
+            }
+          }
+          }
+        }
+      }
+    }
+  }
+
+
+.header-icon {
+  
+}
