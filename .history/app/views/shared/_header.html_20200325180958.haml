@@ -1,0 +1,31 @@
+.header-wrapper
+  .header-main
+    .logo_container
+      =link_to (image_tag "4d24c9b49a22c259010426cd3abccb26.png",size: '120x80'), home_index_path
+    .navigation
+      %nav.top-menu-nav
+        %ul.nav
+          %li.menu-item-home
+            = link_to home_index_path, class: "header-home hover-home" do
+              %i.fas.fa-home.header-icon.hover-home
+              HOME
+          %li.menu-item-plofile
+            = link_to "#", class: "header-plofile hover-plofile" do
+              %i.fas.fa-users.header-icon
+              PLOFILE
+          %li.menu-item-event
+            = link_to "#", class: "header-event hover-event" do
+              %i.fas.fa-bullhorn.header-icon
+              %span EVENT
+          %li.menu-item-history
+            = link_to "#", class: "header-history hover-history" do
+              %i.fas.fa-history.header-icon
+              HISTORY
+          %li.menu-item-movie
+            = link_to "#", class: "header-movie" do
+              %i.fas.fa-film.header-icon
+              MOVIE
+          %li.menu-item-contact
+            = link_to "#", class: "header-contact" do
+              %i.fas.fa-envelope-square.header-icon
+              CONTACT
