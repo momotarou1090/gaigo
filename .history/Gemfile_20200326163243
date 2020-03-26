@@ -69,3 +69,5 @@ gem 'haml-rails'
 gem 'erb2haml'
 gem "jquery-rails"
 gem 'font-awesome-sass', '~> 5.4.1'
+
+3be8a42272dacc91cda9403564e570bfb91a7efe25b390b9fe20c736c016c000525a1629f5146825712021780cb671fe6c10ec64b22f1063d60008a38818b23d
