@@ -1,0 +1,51 @@
+.toggle-opened
+  .x-button
+    %i.fas.fa-times.fa-2x.x-icon
+  .item-menu
+    .items
+      =link_to home_index_path, class:"toggle-home" do
+        %i.fas.fa-home
+    .items
+      =link_to "PLOFILE", "#", class:"toggle-plofile"
+    .items
+      =link_to "EVENT", "#", class:"toggle-event"
+    .items
+      =link_to "HISTORY", "#", class:"toggle-history"
+    .items
+      =link_to "MOVIE", "#", class:"toggle-movie"
+    .items
+      =link_to "CONTACT", "#", class:"toggle-contact"
+.header-wrapper
+  .header-main
+    .logo_container
+      =link_to (image_tag "4d24c9b49a22c259010426cd3abccb26.png",size: '120x80'), home_index_path
+    .navigation
+      %nav.top-menu-nav
+        .toggle
+          .toggle-closed
+            %i.fas.fa-bars.fa-2x.toggle-icon
+        %ul.nav
+          %li.menu-item-home
+            = link_to home_index_path, class: "header-home hover-home" do
+              %i.fas.fa-home.header-icon.hover-home
+              HOME
+          %li.menu-item-plofile
+            = link_to "#", class: "header-plofile hover-plofile" do
+              %i.fas.fa-users.header-icon.hover-plofile
+              PLOFILE
+          %li.menu-item-event
+            = link_to "#", class: "header-event hover-event" do
+              %i.fas.fa-bullhorn.header-icon.hover-event
+              %span EVENT
+          %li.menu-item-history
+            = link_to "#", class: "header-history hover-history" do
+              %i.fas.fa-history.header-icon.hover-history
+              HISTORY
+          %li.menu-item-movie
+            = link_to "#", class: "header-movie hover-movie" do
+              %i.fas.fa-film.header-icon.hover-movie
+              MOVIE
+          %li.menu-item-contact
+            = link_to "#", class: "header-contact hover-contact" do
+              %i.fas.fa-envelope-square.header-icon.hover-contact
+              CONTACT

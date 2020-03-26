@@ -1,0 +1,242 @@
+.header-wrapper {
+  height: 80px;
+  background-color: #1c1c1c;
+  position: relative;
+  z-index: 99999;
+  .header-main {
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 99;
+    padding-right: 30px;
+    .logo_container {
+      padding-left: 30px;
+      position: absolute;
+      height: 100%;
+    }
+    .navigation {
+      height: 47px;
+      width: 650px;
+      padding-left: 221px;
+      padding-top: 33px;
+      float: right;
+      font-weight: 100;
+      font-size:15px;
+      .top-menu-nav {
+        float: left;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 9999999;
+        .toggle {
+          height: 100%;
+          width: 100%;
+          .toggle-closed {
+            .toggle-icon {
+              color: white;
+              margin-top: 22px;
+              margin-left: 22px;
+              cursor: pointer;
+            }
+
+          }
+          .toggle-opened {
+            height: 700px;
+            width: 100%;
+            background-color: black;
+            display: none;
+            opacity: 0.8;
+            .x-button {
+              width: 100%;
+              height: 80px;
+              .x-icon {
+                float: right;
+                color: white;
+                margin-right: 145px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-size: 39px;
+              }
+            }
+          }
+        }
+        .nav {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          font-family: Helvetica, Arial, Lucida, sans-serif;
+          .menu-item-home {
+            height: 100%;
+            display: none;
+            .header-home {
+              margin-right: 20px;
+              text-decoration: none;
+              color: #378cc5;
+            }
+          }
+          .menu-item-plofile {
+            height: 100%;
+            display: none;
+            .header-plofile {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #2ea3f2;
+            }
+          }
+          .menu-item-event {
+            height: 100%;
+            display: none;
+            .header-event {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #2ea3f2;
+            }
+          }
+          .menu-item-history {
+            height: 100%;
+            display: none;
+            .header-history {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #2ea3f2;
+            }
+          }
+          .menu-item-movie {
+            height: 100%;
+            display: none;
+            .header-movie {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #2ea3f2;
+            }
+          }
+          .menu-item-contact {
+            height: 100%;
+            display: none;
+            .header-contact {
+              height: 200px;
+              margin-right: 20px;
+              text-decoration: none;
+              color: #2ea3f2;
+            }
+          }
+          }
+        }
+      }
+    }
+  }
+
+
+.header-icon {
+  display: block;
+  color: #2ea3f2;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 930px) {
+  .header-wrapper {
+    height: 80px;
+    background-color: #1c1c1c;
+    position: relative;
+    z-index: 99999;
+    .header-main {
+      height: 100%;
+      max-width: 100%;
+      position: relative;
+      z-index: 99;
+      padding-right: 30px;
+      .logo_container {
+        padding-left: 30px;
+        position: absolute;
+        height: 100%;
+      }
+      .navigation {
+        height: 47px;
+        width: 650px;
+        padding-left: 221px;
+        padding-top: 33px;
+        float: right;
+        font-weight: 100;
+        font-size:15px;
+        .top-menu-nav {
+          float: left;
+          height: 100%;
+          width: 100%;
+          position: relative;
+          z-index: 9999999;
+          .nav {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            font-family: Helvetica, Arial, Lucida, sans-serif;
+            .menu-item-home {
+              height: 100%;
+              .header-home {
+                margin-right: 20px;
+                text-decoration: none;
+                color: #378cc5;
+              }
+            }
+            .menu-item-plofile {
+              height: 100%;
+              .header-plofile {
+                height: 200px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: #2ea3f2;
+              }
+            }
+            .menu-item-event {
+              height: 100%;
+              .header-event {
+                height: 200px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: #2ea3f2;
+              }
+            }
+            .menu-item-history {
+              height: 100%;
+              .header-history {
+                height: 200px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: #2ea3f2;
+              }
+            }
+            .menu-item-movie {
+              height: 100%;
+              .header-movie {
+                height: 200px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: #2ea3f2;
+              }
+            }
+            .menu-item-contact {
+              height: 100%;
+              .header-contact {
+                height: 200px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: #2ea3f2;
+              }
+            }
+            }
+          }
+        }
+      }
+    }
+  
+  
+  .header-icon {
+    display: block;
+    color: #2ea3f2;
+    width: 20px;
+    height: 20px;
+  }
+}
