@@ -331,7 +331,7 @@
   .plofile-wrapper {  
     width: 100vw;
     height: 1200px;
-    background-image: image-url("pattern_48.jpg");
+    background-image: url("pattern_48.jpg");
     background-size: 50% auto;
     .plofile-members {
       font-size: 45px;
@@ -457,7 +457,7 @@
             height: 370px;
             position: absolute;
             top: 280px;
-            left: 1030px;
+            right: 30px;
             z-index: 9;
           }
           .sakai-hover {
@@ -467,7 +467,7 @@
             width: 370px;
             position: absolute;
             top: 480px;
-            left: 1030px;
+            right: 30px;
             z-index: 99;
             text-align: center;
             display: none;
@@ -561,7 +561,7 @@
             height: 370px;
             position: absolute;
             top: 750px;
-            left: 530px;
+            right: 530px;
             z-index: 9;
           }
           .muramoto-hover {
@@ -571,7 +571,7 @@
             width: 370px;
             position: absolute;
             top: 950px;
-            left: 530px;
+            right: 530px;
             z-index: 99;
             text-align: center;
             display: none;
@@ -660,7 +660,7 @@
   .plofile-wrapper {  
     width: 100vw;
     height: 3100px;
-    background-image: image-url("pattern_48.jpg");
+    background-image: url("pattern_48.jpg");
     background-size: 50% auto;
     .plofile-members {
       font-size: 45px;
