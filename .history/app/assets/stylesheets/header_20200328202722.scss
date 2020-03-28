@@ -37,9 +37,10 @@
     .x-icon {
       float: right;
       color: white;
-      margin-right: 33px;
+      margin-right: 29px;
       margin-top: 30px;
       cursor: pointer;
+      font-size: 39px;
     }
   }
 }
@@ -186,7 +187,7 @@
         position: absolute;
         height: 100%;
         .logo-image img {
-          width: 95px;
+          width: 0px;
           height: 80px;
         }
       }

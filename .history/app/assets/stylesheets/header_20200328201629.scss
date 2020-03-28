@@ -37,9 +37,10 @@
     .x-icon {
       float: right;
       color: white;
-      margin-right: 33px;
+      margin-right: 29px;
       margin-top: 30px;
       cursor: pointer;
+      font-size: 39px;
     }
   }
 }
@@ -58,10 +59,6 @@
       padding-left: 30px;
       position: absolute;
       height: 100%;
-      .logo-image img {
-        width: 160px;
-        height: 160px;
-      }
     }
     .navigation {
       height: 47px;
@@ -185,10 +182,6 @@
         padding-left: 30px;
         position: absolute;
         height: 100%;
-        .logo-image img {
-          width: 95px;
-          height: 80px;
-        }
       }
       .navigation {
         height: 47px;
