@@ -50,6 +50,5 @@ test:
 production:
   <<: *default
   database: gaigo_production
-  username: root
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /var/lib/mysql/mysql.sock
+  username: gaigo
+  password: <%= ENV['GAIGO_DATABASE_PASSWORD'] %>
