@@ -1,0 +1,31 @@
+.plofile-wrapper {  
+  width: 100vw;
+  height: 100vh;
+  background-image: url("pattern_48.jpg");
+  background-size:cover;
+  .plofile-members {
+    font-size: 45px;
+    font-family: 'Courier New';
+    color: white;
+    padding-top: 30px;
+    margin-left: 30px;
+  }
+  .plofiles {
+    .plofile-image {
+      img {
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+      }
+    }
+    .plofile-name {
+    }
+    .plofile-links { 
+      .twitter-icon {
+        width: 100px;
+        height: 100px;
+        color:rgb(0, 162, 255);
+      }
+    }
+  }
+}

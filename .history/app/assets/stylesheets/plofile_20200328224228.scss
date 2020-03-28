@@ -1,0 +1,24 @@
+.plofile-wrapper {  
+  background-image: url("images/pattern_48.jpg");
+  background-size:cover;
+  .plofile-members {
+    font-family: 'ヒラギノ角ゴ StdN W8';
+    color: white;
+  }
+  .plofiles {
+    .plofile-image {
+      img {
+        border-radius: 50%;
+      }
+    }
+    .plofile-name {
+    }
+    .plofile-links { 
+      .twitter-icon {
+        width: 100px;
+        height: 100px;
+        color:rgb(0, 162, 255);
+      }
+    }
+  }
+}

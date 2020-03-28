@@ -1,0 +1,40 @@
+.plofile-wrapper {  
+  width: 1000w;
+  height: 100vh;
+  background-image: url("pattern_48.jpg");
+  background-size: 20% auto;
+  .plofile-members {
+    font-size: 45px;
+    font-family: 'Courier New';
+    color: white;
+    padding-top: 30px;
+    margin-left: 30px;
+  }
+  .plofiles {
+    height: 1000px;
+    width: 100vw;
+    .plofile-image {
+      margin-left: 30px;
+      img {
+        border-radius: 50%;
+        width: 370px;
+        height: 370px;
+        position: relative;
+        z-index: 9;
+      }
+    .hover{
+      width: 370px;
+      height: 370px;
+      .plofile-name {
+      }
+      .plofile-links { 
+        .twitter-icon {
+          width: 100px;
+          height: 100px;
+          color:rgb(0, 162, 255);
+        }
+      }
+    }
+    }
+  }
+}
