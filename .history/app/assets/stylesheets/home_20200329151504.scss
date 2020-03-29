@@ -1,0 +1,19 @@
+@media screen and (max-width: 920px)
+.home-wrapper {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  .top-image {
+    height: 800px;
+    background-image: image-url("S__7798804.jpg");
+    background-size: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image-center {
+
+    }
+  }
+  .count-down {
+  }
+}
