@@ -1,0 +1,13 @@
+.movie-wrapper {
+  height: 900px;
+  width: 100vw;
+  background-image: image-url("Sea-waves-clouds-moon-painting_2880x1800.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .movies {
+    height: 460px;
+    width: 750px;
+  }
+}
