@@ -1,0 +1,31 @@
+.yycountdown-box {
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	background-image: image-url("pngtree-glare-cool-blue-purple-gradient-simple-background-material-purplegradientsimplebackgroundmaterial-image_56875.jpg");
+	background-size: cover;
+	color: white;
+	font-family: 'Courier New';
+	font-weight: 800;
+}
+
+.yyc-day{
+	font-size:3.0em;
+}
+.yyc-hou{
+	font-size:3.0em;
+}
+.yyc-min{
+	font-size:3.0em;
+	color:#009F3D;
+}
+.yyc-sec{
+	font-size:3.0em;
+	color:#DF0024;
+}
+.yyc-day-text,
+.yyc-hou-text,
+.yyc-min-text,
+.yyc-sec-text{
+	font-size:1.0em;
+}

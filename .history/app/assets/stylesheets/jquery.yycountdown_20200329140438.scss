@@ -1,0 +1,34 @@
+.yycountdown-box {
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	background-image: image-url("41454679143eaa87585431f5c80f8647_t.jpeg");
+	background-size: cover;
+	color: white;
+	font-family: 'Courier New';
+	font-size: 30px;
+	font-weight: 800;
+	text-shadow: 0.08em 0.08em 0em rgba(0,0,0,0.25)!important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.yyc-day{
+	font-size:3.0em;
+}
+.yyc-hou{
+	font-size:3.0em;
+}
+.yyc-min{
+	font-size:3.0em;
+}
+.yyc-sec{
+	font-size:3.0em;
+}
+.yyc-day-text,
+.yyc-hou-text,
+.yyc-min-text,
+.yyc-sec-text{
+	font-size:1.0em;
+}
