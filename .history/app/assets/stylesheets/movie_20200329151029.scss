@@ -1,15 +1,5 @@
 @media screen and (max-width: 920px) {
-  .movie-wrapper {
-    height: 700px;
-    width: 100%;
-    background-image: image-url("Sea-waves-clouds-moon-painting_2880x1800.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 920px) {
+
   .movie-wrapper {
     height: 900px;
     width: 100%;
